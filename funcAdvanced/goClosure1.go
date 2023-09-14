@@ -2,10 +2,23 @@ package main
 
 import "fmt"
 
-// 1. Go closure is a nested function that allows us to access variables of
-// the outer function even after the outer function is closed.
+/*
+=> Go provides a special feature known as an "anonymous fx".
+=> An anonymous function can form a closure.
 
-// To Do closure, lets first see on:
+=> A closure is a special type of anonymous function that references variables declared outside of the function itself.
+=> It's similar 2 accessing global variables which are available b4
+the declaration of the fx.
+
+=> Go closure is a nested function that allows us to access variables of the
+outer function even after the outer function is closed.
+
+Before doing closure, we must understand:
+=========================================
+-> 1. NESTED FX: It is a created function inside another function.
+-> 2. Returning a function in Go
+*/
+
 // 1A. NESTED FX: It is a created function inside another function.
 // ===============================================================
 
